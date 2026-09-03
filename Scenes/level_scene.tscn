@@ -1,3 +1,41 @@
 [gd_scene format=3 uid="uid://8lpyasndghu5"]
 
+[ext_resource type="Texture2D" uid="uid://bqxl35ljm0hs3" path="res://360_F_2062373584_96K525e6SXVYIAV8aGnT7MLbE5VZFNLy.jpg" id="1_cn3xy"]
+[ext_resource type="Texture2D" uid="uid://ctxqs2e25vhy0" path="res://Heart_pixelart_(transparent_background).svg.webp" id="2_c7xwe"]
+
 [node name="level_scene" type="Node2D" unique_id=514234862]
+
+[node name="Background" type="TextureRect" parent="." unique_id=1207480499]
+offset_left = 3.0
+offset_top = 8.0
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("1_cn3xy")
+
+[node name="hearts" type="HBoxContainer" parent="." unique_id=543799842]
+offset_left = 279.00003
+offset_top = 212.99998
+offset_right = 19607.0
+offset_bottom = 4053.0
+scale = Vector2(0.029572371, 0.02746193)
+theme_override_constants/separation = 32
+
+[node name="heart" type="TextureRect" parent="hearts" unique_id=807413313]
+layout_mode = 2
+texture = ExtResource("2_c7xwe")
+
+[node name="heart2" type="TextureRect" parent="hearts" unique_id=201769803]
+layout_mode = 2
+texture = ExtResource("2_c7xwe")
+
+[node name="heart3" type="TextureRect" parent="hearts" unique_id=248904413]
+layout_mode = 2
+texture = ExtResource("2_c7xwe")
+
+[node name="heart4" type="TextureRect" parent="hearts" unique_id=1827351026]
+layout_mode = 2
+texture = ExtResource("2_c7xwe")
+
+[node name="heart5" type="TextureRect" parent="hearts" unique_id=1763737908]
+layout_mode = 2
+texture = ExtResource("2_c7xwe")
